@@ -134,3 +134,5 @@ async def startup_event():
         logger.error(f"Error seeding database: {e}")
     
     logger.info("DAITA Solutions API started successfully")
+
+app.run(host='0.0.0.0', port=10000)
