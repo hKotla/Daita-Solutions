@@ -71,25 +71,32 @@ async def seed_team_data():
     """Seed team data"""
     team_members = [
         TeamMember(
-            name="Dr. Sarah Chen",
+            name="Harinath Kotla",
             role="Chief AI Officer",
-            bio="15+ years in AI research and enterprise implementation. Former Google AI researcher with expertise in machine learning and neural networks.",
-            image="https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+            bio="Expert in AI system validation with 12+ years in quality assurance. Specializes in testing ML models and ensuring AI system reliability. 3+ years in AI research and enterprise implementation. AI researcher with expertise in machine learning and neural networks.",
+            image="https://photos.google.com/album/AF1QipMkIXEH_VNzfJ_FrVMCi148DJZdfwIx6ENfMNn4/photo/AF1QipPBygHdIxycq4QLdeAgNNC6v71zJ8Qemb4zO97u",
             order=1
         ),
         TeamMember(
-            name="Michael Rodriguez",
-            role="Head of AI Testing",
-            bio="Expert in AI system validation with 12+ years in quality assurance. Specializes in testing ML models and ensuring AI system reliability.",
-            image="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+            name="Vani Chelimilla",
+            role="Head of Sales",
+            bio="Commercial leader with experience in driving sales and scaling tech businesses with a deep understanding of AI-powered business solutions and how they create value for clients",
+            image="https://photos.google.com/album/AF1QipMkIXEH_VNzfJ_FrVMCi148DJZdfwIx6ENfMNn4/photo/AF1QipPyKsTP3DzDQOBMWK5hkFcmA_nL9bdypLz0168-",
             order=2
         ),
         TeamMember(
-            name="Emily Johnson",
-            role="GenAI Quality Engineer",
+            name="Giri P",
+            role="Head of AI Testing",
             bio="Pioneer in GenAI applications for quality engineering. 10+ years in software testing with deep expertise in generative AI integration.",
-            image="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+            image="",
             order=3
+        ),
+        TeamMember(
+            name="Currently Recruiting",
+            role="GenAI Quality Engineer",
+            bio="Looking for a QE with experience in GenAI applications for quality engineering. 10+ years in software testing with deep expertise in generative AI integration.",
+            image="",
+            order=4
         )
     ]
     
